@@ -1,0 +1,56 @@
+.clearfix:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.deck-container .codeslidemenu
+{
+	margin-bottom: 1em;
+	text-align: right;
+	font-size: 50%;
+}
+
+.slide footer
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.slide .notes
+{
+	display: none;
+}
+
+h2.vcenter
+{
+	border: none;
+	font-size: 4.5em;
+}
+
+.deck-container section > p,
+.deck-container section .vcenter > p
+{
+	font-size: 2.25em;
+}
+
+.deck-container p.author
+{
+	font-size: 0.75em;
+	text-align: right;
+}
+
+.deck-container .slide a
+{
+	text-decoration: underline;
+}
+.deck-container .slide a:hover
+{
+	text-decoration: none;
+}

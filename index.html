@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Kliento pusės kūrimo ypatumai</title>
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/core/deck.core.css">
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/extensions/status/deck.status.css">
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/extensions/hash/deck.hash.css">
+	
+	<!-- Theme CSS files (menu swaps these out) -->
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/themes/style/swiss.css">
+	<link rel="stylesheet" href="imakewebthings-deck.js-b4cd216/themes/transition/horizontal-slide.css">
+
+	<!-- specific to this deck -->
+	<link rel="stylesheet" href="my.css" />
+
+	<!-- modernizr -->
+	<script src="imakewebthings-deck.js-b4cd216/modernizr.custom.js"></script>
+</head>
+<body class="deck-container">
+
+	<section id="title" class="slide">
+		<h1>Kliento pusės kūrimo ypatumai</h1>
+		<footer>
+			<p>Autorius <a href="http://www.dominykas.com">Dominykas Blyžė</a> (<a href="http://twitter.com/dymonaz">@dymonaz</a>), 2012-04-21</p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<img src="i/516831354.jpg" alt="Front-end engineer" />
+		<footer>
+			<p>Šaltinis: <a href="http://twitpic.com/8jphmi">Franck Maurin, @franckmaurin</a></p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">Internetus gaminti yra OSAM</h2>
+		<div class="notes">
+			<p>Paspaudžiam F5 - stebuklas</p>
+			<p>Gražios svetainės gimsta iš metodiškumo</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Pirmas dalykas</h2>
+		<p class="vcenter">Geras web developeris privalo mokėti kurti WordPress temas</p>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">NOT!</h2>
+		<div class="notes">
+			<p>Netikėkite šarlatanais</p>
+			<p>Viską tikrinkite</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">A</h2>
+		<div class="notes">
+			<p>A href, kuris esi hipertekste, tenenulūžta tavo servas, teatsimena tave wayback mašina</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Pirmas dalykas: &lt;a&gt;</h2>
+		<p><a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html">Viena pirmųjų HTML specifikacijų</a> apibrėžė 15+ žymų.</p>
+		<p>HTML5 standarte yra apie 100.</p>
+		<p>Iš pirmojo išliko vos kelios: <strong>a</strong>, ul/li, dl/dt/dd, h1-h6, p, title</p>
+	</section>
+
+	<section class="slide">
+		<h2>Svarbiausias naujųjų laikų išradimas</h2>
+		<blockquote>
+			<p>Greatest invention of our time: The URL.</p>
+			<p class="author"><a href="https://twitter.com/rtomayko/status/193197433654755328">Ryan Tomayko, @rtomayko</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Programuotojams URL reiškia įsipareigojimą</p>
+			<p>Cool URLs don't die</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>&lt;a&gt; ir URL užtenka sukurti tinklą</h2>
+		<blockquote>
+			<p>The Web is URL not HTML. A native app which uses URLs as input/output is more "Web" than an HTML app for which the only URL is its home page</p>
+			<p class="author"><a href="https://twitter.com/vambenepe/status/183054253907124224">William Vambenepe, @vambenepe</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Per internetą eina nuorodų naikinimo banga</p>
+			<p>Aplikacijos, URL trumpikliai, hashbang'ai, Geocities mirtis</p>
+			<p>Gal URL ir nėra pats patogiausias dalykas vartotojams...</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>URL turi prasmę</h2>
+		<blockquote>
+			<p>Contrary to popular belief, average users *do* pay attention to URLs. Three users in tests this week were thrown by an oddly named URL.</p>
+			<p class="author"><a href="https://twitter.com/skinny/status/165209720137846784">Crystal Beasley, @skinny</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Blogai - datos, produktai - kategorijos</p>
+			<p>PageRank yra nuorodų kiekis</p>
+			<p>Nuorodas reikia mylėti, nes jos leidžia užkrauti HTML - kas yra HTML?</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>HTML yra sriuba</h2>
+		<img src="i/2846859050_1f1397fbd1_z.jpg" alt="Sriuba" />
+		<footer>
+			<p><a href="http://www.flickr.com/photos/madaise/2846859050/">(c) Judi Cox</a></p>
+		</footer>
+		<div class="notes">
+			<p>Tag Soup - XML emeilo konferencija, ~2002 metais</p>
+			<p>Dogmatiškas požiūris?</p>
+			<p>Validacija - dar viena dogma?</p>
+			<p>Lyrinis nukrypimas apie denormalizaciją</p>
+			<p>XHTML - dar viena dogma</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>XHTML pralošė, nes nebuvo lanksti</h2>
+		<p class="vcenter">HTML lankstumas yra tai, dėl ko internetuose turime begalę informacijos</p>
+		<div class="notes">
+			<p>HTML supranta ir namų šeimininkė, kuri gal nemoka suprogramuoti ciklo</p>
+			<p>Net ir nevalidų HTML galima atvaizduoti</p>
+			<p>Geltonas xHTML ekranas...</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Yellow screen of death</h2>
+
+		<img class="vcenter" src="i/Yellow_screen_of_death.png" alt="Yellow screen of death" />
+
+		<footer>
+			<p>Šaltinis: <a href="http://commons.wikimedia.org/wiki/File:Yellow_screen_of_death.png">Wikimedia Commons</a></p>
+		</footer>
+
+		<div class="notes">
+			<p>Mes - profesionalai, todėl turime turėti griežtus reikalavimus - bet tik sau, ne kitiems</p>
+			<p>HTML5 leidžia daryti ką nori</p>
+			<p>Validacija užtikrina kokybę</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Validacija užtikrina kokybę</h2>
+		<div class="vcenter">
+			<p>Profesionalai laikosi receptų</p>
+			<p>Cepelinus galima valgyti ir su paprikų padažu</p>
+		</div>
+		<div class="notes">
+			<p>Komandoje laikomės vidinio standarto</p>
+			<p>Kartais laužome dogmas</p>
+			<p>Turinio semantika</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Validus HTML</h2>
+		<pre>&lt;form action="...">
+    &lt;ul>
+    	&lt;li>&lt;button> Yes &lt;/button>&lt;/li>
+    	&lt;li>&lt;button> No &lt;/button>&lt;/li>
+    &lt;/ul>
+&lt;/form></pre>
+		<p>Mygtukų sąrašas? orly?</p>
+		<div class="notes">
+			<p>Navigacija, antraštės, paragrafai</p>
+			<p>Dėmesys ir mikro-optimizacijoms</p>
+			<p>Standartai nereiškia, kad viskas divai ar listai</p>
+			<p>HTML reikia rašyti tik tiek kiek jo reikia</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">&lt;I&gt; vs '&lt;em&gt;</h2>
+		<div class="notes">
+			<p>Dar viena dogma</p>
+			<p>Aklas rėkimas</p>
+			<p>CSS pakeičia visą atvaizdavimą</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Gaminti internetus - savižudybė</h2>
+		<blockquote>
+			<p>The most hostile software development environment imaginable.</p>
+			<p class="author">Douglas Crockford</p>
+		</blockquote>
+		<div class="notes">
+			<p>Pati priešiškiausia aplinka</p>
+			<p>Ilgus metus browseriai nedarė tai ko mums reikia</p>
+			<p>Vendor prefixai?</p>
+			<p>Dabar CSS turime apvalintus kampus - viskas, ok?</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Privalomas juokas apie IE6</h2>
+		<p>nejuokinga...</p>
+		<div class="notes">
+			<p>Androidas yra naujas IE6</p>
+			<p>CSS kodo kiekis tik auga</p>
+			<p>Klasės nėra vien CSS klasės</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Kaip sutvarkyti CSS?</h2>
+		<p>SASS, LESS</p>
+		<p>CSSLint</p>
+		<p>Stiliaus gidai, KSS</p>
+		<div class="notes">
+			<p>FEE užduotis yra nepaleisti visko iš rankų</p>
+			<p>Kiekvieną dieną atsiranda nauji komponentai</p>
+			<p>Reikia atsiminti visos komandos pakeitimus</p>
+			<p>Dizaineriai keičia dalykus kiekvieną dieną</p>
+			<p>Kai dizaineris pabaigia piešti - reikia "įpūsti dvasią"</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Javascript</h2>
+		<p class="vcenter">Tai ką naudojame, kai CSS ir HTML nepakanka</p>
+		<div class="notes">
+			<p>PE yra teisinga ideologija</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Ar tikrai nepakanka CSS ir HTML?</h2>
+		<p class="vcenter">Pasiekti rezultatą <em>visada įmanoma</em> be JS</p>
+		<div class="notes">
+			<p>PE nereikalauja pastangų. Pastangos yra rašyti papildomą kodą kliento pusėje!</p>
+			<p>Kas nutinka kai JS būna klaida? Gizmodo lūžis.</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">Javascript klaidas galima bandyti pagauti</h2>
+		<div class="notes">
+			<p>JS klaidas galima pagauti ir sulogginti į Google Analytics</p>
+			<p>Bet tą daryti reikia šiaip ar taip</p>
+			<p>Tačiau klaidos JS vistiek bus</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Javascript klaidos yra neišvengiamos</h2>
+		<p class="vcenter">Negana to, neaišku ar išvis tas JS užsikraus</p>
+		<div class="notes">
+			<p>Tipinis vartotojas - geras broadbandas</p>
+			<p>Tačiau kiek laiko trunka JS krovimas per 3G?</p>
+			<p>Ką veikti kol kraunasi JS?</p>
+			<p>Kaunas - Vilnius: tunelis</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Net pats teisingiausias JS kodas gali neveikti</h2>
+		<p class="vcenter">Įvairūs korporacijų bei mobilių kompanijų proksiai gali jį modifikuoti</p>
+		<div class="notes">
+			<p>Ar tikrai vykdomas mūsų kodas?</p>
+			<p>Nėra jokių garantijų!</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Rašykime kuo mažiau JS kodo</h2>
+		<div class="vcenter">
+			<p>JS negalima pasikliauti</p>
+			<p>Bonusas: mažiau JS - mažiau reikia parsisiųsti</p>
+		</div>
+		<div class="notes">
+			<p>Javascript architekto užduotis - priversti kitus rašyti mažiau JS</p>
+			<p>Bet jeigu jau rašyti JS - rašyti reikia taip kaip priklauso</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">"jQuery" !== "Javascript"</h2>
+		<div class="notes">
+			<p>Verta domėtis viduriais</p>
+			<p>Verta pastebėti JS klaidas ir jas analizuoti _svetimose_ svetainėse</p>
+			<p>scrollTo() be parametrų</p>
+			<p>jQuery yra makaronai</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Kaip išvengti jQuery spagečių?</h2>
+		<p class="vcenter">TDD!</p>
+		<footer>
+			<p>QUnit, JsTestDriver, buster.js</p>
+		</footer>
+		<div class="notes">
+			<p>Tai nėra sunku. Ir be to išsiversti kuriant mob. svetaines - neįmanoma</p>
+			<p>Išlaikyti saiką - ar tikrai reikia jQuery/YUI/kito freimworko?</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Ar tikrai reikia framework'o?</h2>
+		<div class="vcenter">
+			<p>jQuery - ~100kb - ar tikrai jų reikia?</p>
+			<p>querySelectorAll, etc - IE8+</p>
+		</div>
+		<div class="notes">
+			<p>Net kraunant iš CDN nėra garantijos - skirtingos svetainės naudoja skirtingas versijas</p>
+			<p>Modernios naršyklės yra pakankamai pažangios ir stengiasi spręsti tas problemas dėl kurių jQuery apskritai egzistuoja</p>
+			<p>Viena gija</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Kai JS vykdomas - naršyklė nepiešia</h2>
+		<p class="vcenter">Galima kurti iliuzijas su setTimeout(), XHR, animacijomis</p>
+		<div class="notes">
+			<p>Kai naršyklė piešia - nevykdo JS ir atvirkščiai</p>
+			<p>Bet kas gali įvykti bet kada - asinchroniškumas</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Mąstyti asinchroniškai yra sunku</h2>
+		<p class="vcenter">...už sinchronišką XHR galiu jums nemokamai nukapoti pirštus</p>
+		<div class="notes">
+			<p>Ilgas click'as - daug eventų</p>
+			<p>Yehuda Katz (?) the amount of state is mindbogling</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Kaip suvaldyti didelį kiekį būklių ir įvykių?</h2>
+		<p>MVC (backbone, ember, etc)</p>
+		<p>Skaidyti į mažus komponentus</p>
+		<p>Naudoti custom DOM events</p>
+		<div class="notes">
+			<p>Iš kiekvienos būklės į kiekvieną kitą būklę - jūzeris gali paspausti bet ką!</p>
+			<p>MVC kliento pusėje - kartais per daug riebu</p>
+			<p>Nick Zakas architektūra: viską sluoksniuoti ir sujungti per kažkokį komunikatorių</p>
+			<p>Tai dera su PE</p>
+			<p>Kiek laiko kalbėjau?</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">HTML+CSS+JS - gana?</h2>
+		<div class="notes">
+			<p>freimworkas -> url -> html -> CSSukrus -> js mygtukas</p>
+			<p>Prieš 10 metų geras developeris buvo tas kur moka IE6 bugus mintinai</p>
+			<p>haš-tė-em-el-ščikas nėra lameris ir daro daug daugiau</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Accessibility</h2>
+		<p class="vcenter">Accessibility yra galimybė naudotis: visiems, visur, visada, su visais įrenginiais</p>
+		<div class="notes">
+			<p>Istorija apie šviesoforą</p>
+			<p>Kai vartotojas bando išeiti - reikia ant jo rėkti [NOT]</p>
+			<p>Garsinis signalas nėra vien akliesiems</p>
+			<p>Nedarykime nesąmonių</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Lengviausias būdas kurti prieinamas svetaines yra negriauti jų</h2>
+		<p>Tekstas</p>
+		<p>Kontrastas</p>
+		<p>Ribotas informacijos kiekis</p>
+		<div class="notes">
+			<p>Užrašai paveiksliukuose - blogai</p>
+			<p>Animacijai nereikalingas Flash</p>
+			<p>Kontrastas - blogai sureguliuoti monitoriai</p>
+			<p>Skaidymas antraštėmis - iš karto navigacijos (keyboard) bonusas</p>
+			<p>Didelės paspaudimui skirtos zonos (fat finger, fitt's law)</p>
+			<p>Padėkime dizaineriams</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">Nereikalinga skaidrė</h2>
+		<div class="notes">
+			<p>Kiek dizainerių? Kiek gamina Photoshop vs browseryje?</p>
+			<p>Interneto dievai proteguoja buzzwordus</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2 class="vcenter">Content first</h2>
+		<div class="notes">
+			<p>Dirbant iš karto naršyklėje su turiniu daug lengviau</p>
+			<p>PSD yra nuobodu ir neperteikia veiksmo</p>
+			<p>lorem ipsum must die</p>
+			<p>Stumdykime pikselius kartu</p>
+			<p>IA: pirma tai kas atvaizduojama, po to tai kaip atvaizduojama</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2><del>Content first</del></h2>
+		<p class="vcenter">Informacijos architektūra</p>
+	</section>
+	
+	<section class="slide">
+		<h2>Lokalizacija</h2>
+		<p class="vcenter">Europos Sąjunga turi 23 oficialias kalbas</p>
+		<div class="notes">
+			<p>Kaip lietuviai - mokame kalbų!</p>
+			<p>Linksniavimas, etc</p>
+			<p>Gramatika skiriasi - templeitininant svarbu turėti omenyje</p>
+			<p>Skiriasi teksto kiekis</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Lokalizacija</h2>
+		<div style="padding-left: 40%;padding-top:2em;font-size:3em;">
+		<div>Redaguoti</div>
+		<div style="border-right:5px solid #00f;position:absolute;margin-top:-1.75em;padding-top:1.75em;padding-bottom:0.5em;">Edit</div>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Būna ir taip...</h2>
+		<blockquote>
+			<p>#3. Web dizaineriai, į 45px kvadratinį boxą condensed šriftu vos sukišę žodį "vasario" ir nepabandę ten žodžio "rugpjūčio" - apsišikite 2x.</p>
+			<p class="author">Išgirsta twitteriuose...</p>
+		</blockquote>
+		<div class="notes">
+			<p>Mūsų darbas pagauti tokius dalykus iš anksto</p>
+			<p>Kad viskas tilptų - kokiai rezoliucijai pritaikyti?</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Kuriai rezoliucijai kurti?</h2>
+		<p class="vcenter">Pradėti nuo mažiausios, plėstis tol, kol vaizdzialis pasidaro nikoks, tada keisti išdėstymą</p>
+		<div class="notes">
+			<p>Mano telefonas - 400x240; populiariausia - 1366x768; Full HD monitoriai</p>
+			<p>Kokioje aplinkoje veiks mūsų kodas? Bet kokioje!</p>
+			<p>Mobile first - pradedam nuo paprasčiausio ir transformuojame su media queries</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Mobile first</h2>
+		<div class="vcenter">
+			<p>Skirtingi vartotojų poreikiai</p>
+			<p>Skirtingi apribojimai (rėmai? constraints..)</p>
+		</div>
+		<div class="notes">
+			<p>Skirtingi poreikiai ir constraints</p>
+			<p>Ant mobile nėra hover</p>
+			<p>Bet jeigu pradedame nuo paprasčiausio - tai juk PE!</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2><del>Responsive design</del></h2>
+		<p class="vcenter">Progressive enhancement?</p>
+		<div class="notes">
+			<p>Gal ir nesąžiningai "interneto dievus" apkaltinau buzzwordizmu</p>
+			<p>Svarbiausia, kad kuo daugiau programuotojų to laikytųsi</p>
+			<p>Ką tik pats tai bandžiau parduoti!</p>
+			<p>Veikia mano įrengime - ir veikia patogiai</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Usability</h2>
+		<p class="vcenter">Nėra universalaus recepto</p>
+		<div class="notes">
+			<p>Neįmanoma apžvelgti per kelias minutes</p>
+			<p>Nėra paprastų sprendimų - reikia individualiai analizuoti</p>
+			<p>Absoliutus minimumas - neversti vartotojo jaustis kvailiu (Alan Cooper)</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Don't make me think</h2>
+		<blockquote>
+			<p>Every time you decide that making users feel stupid is better than fixing your code, you're making an ethical decision.</p>
+			<p class="author"><a href="http://www.joelonsoftware.com/news/fog0000000322.html">Joel Spolsky</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Neetiška versti vartotojus daužyti galvą į sieną</p>
+			<p>Kaip suprasti ką daryti? Stebėti.</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2 class="vcenter">Svarbiausia stebėti žmonių elgesį</h2>
+		<div class="notes">
+			<p>Grįžtant prie ilgo clicko...</p>
+			<p>Stebėti visus, visur ir visada - ir žavėtis skirtumais</p>
+			<p>Kai atsiveria akys - viską visada testuoti</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2 class="vcenter">Testuoti kiekviename žingsnyje</h2>
+		<div class="notes">
+			<p>BTW, nėra kvailų idėjų - reikia visas patikrinti</p>
+			<p>Tiek prototipus, tiek galutinį produktą reikia tikrinti</p>
+			<p>Vien analitinės/statistinės pusės negana - reikia suprasti KODĖL</p>
+			<p>Nenustoti kaulyti resursų iš valdžios - visada atsiperka</p>
+			<p>Elementarūs principai ir patirtis...</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Usability 101: affordances</h2>
+		<img src="i/vejelis.png" alt="Vėjelis - ką daryti? Spausti?" />
+		<footer>
+			<p>Elementai, kuriuos galima "judinti", turi atrodyti pajudinami.<p>
+		</footer>
+		<div class="notes">
+			<p>Mygtukai kaip mygtukai, nuorodos kaip nuorodos</p>
+			<p>Nespaudžiami dalykai turi neatrodyti spaudžiami! (kitaip atrodo sulūžę)</p>
+			<p>Paspaudus - atoveiksmis</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Usability 101: feedback</h2>
+		<p>Kiekvienas veiksmas privalo turėti atoveiksmį.</p>
+		<img class="vcenter" src="i/ajax-loader.gif" alt="Progreso indikatorius" />
+		<div class="notes">
+			<p>Su AJAX, indikatorius turime daryti patys</p>
+			<p>Kai veiksmas pasibaigia - sėkmės patvirtinimas</p>
+			<p>Padorus tekstas - "spausk ten už kilometro"</p>
+			<p>Norisi verkti...</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Airijos VMI savitarna</h2>
+		<img src="i/ROS-home.png" alt="No messages?" />
+		<div class="notes">
+			<p>Kodėl įeinančios žinutės yra po meniu "tavo prašymai"?</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Problemos sprendimas nėra paaiškinimas tekstu</h2>
+		<p class="vcenter">Problemos sprendimas yra jos sunaikinimas padarant Teisingai.</p>
+		<div class="notes">
+			<p>Kažkas neatliko darbo - bet kažkas pastebėjo - el. pašte yra paminėta kur spausti</p>
+			<p>Sistema elgiasi IDIOTIŠKAI - kažkas turi paspausti stabdį (MES)</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Kai nėra komandos...</h2>
+		<p class="vcenter">...reikia naudoti savo smegenis</p>
+		<div class="notes">
+			<p>Liz Keogh: pasisekė dirbti su gera komanda.</p>
+			<p>Turime patys tapti "gera komanda" ir išmokyti kitus.</p>
+			<p>Didelės organizacijos gali sau leisti samdyti atskirus žmones - mums reikia taupyti</p>
+			<p>Betaupant, UX nugula ant FEE</p>
+			<p>FEE ieško sprendimų</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Balanso paieškos</h2>
+		<p class="vcenter">Pagrindinis front-end engineer užsiėmimas</p>
+		<div class="notes">
+			<p>Ieškant sprendimų privalu suderinti įvairius interesų konfliktus</p>
+			<p>Ilgai planuoti ar greitai gaminti ir iteruoti?</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2 class="vcenter">Waterfall prieš agile</h2>
+		<div class="notes">
+			<p>Kartais būna tiesiog pasakyta - pagamink vakar.</p>
+			<p>Profesionalas turi reikšti savo argumentuotą nuomonę.</p>
+			<p>Profesionalas turi ir pats valdytis.</p>
+			<p>Kita plotmė - verslas prieš vartotojus</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2 class="vcenter">Verslo poreikiai prieš vartotojo poreikius</h2>
+		<div class="notes">
+			<p>GoDaddy vs Amazon</p>
+			<p>Dvidešimt ekranų prieš vieną paspaudimą</p>
+			<p>"Pridėk čia mygtuką"</p>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<h2>Ar tikrai reikia šito funkcionalumo?</h2>
+		<blockquote>
+			<p>UX designers should be judged not only by the designs that they create, but also by the designs they successfully prevent from happening.</p>
+			<p class="author"><a href="https://twitter.com/MarkusWeber/status/110672514950246400">Markus Weber, @MarkusWeber</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Negalima tiesiog imti ir pridėti. Negalima pasakyti "tuoj".</p>
+			<p>Reikia sustoti, pamąstyti ir uždavinėti klausimus</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Klausimų uždavinėjimas</h2>
+		<img class="vcenter center" src="i/Aplv-d7CMAA7Xjw.jpg" alt="Primary action versus secondary action & proximity (by @laurenceveale)" />
+		<footer>
+			<p>Foto: <a href="https://twitter.com/laurenceveale/status/187303978483200002/photo/1">Laurence Veale, @laurenceveale</a></p>
+		</footer>
+		<div class="notes">
+			<p>Ką daro mygtukas? Kodėl jis reikalingas? Ar yra alternatyvų?</p>
+			<p>Ar tas mygtukas padės vartotojui ar jį klaidins?</p>
+			<p>Kartais pirma mintis gera - bet tam reikia patirties</p>
+			<p>Kaskartą naujas sprendimas, nes nėra identiškų problemų</p>
+			<p>Ar atneš daugiau pajamų? Ar sumažins kaštus?</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Can haz respect?</h2>
+		<blockquote>
+			<p>meeting the "real" IT people makes me sick, as they quite openly discard web developers as noobs doing trivial stuff</p>
+			<p class="author"><a href="https://twitter.com/juokaz/status/174288800921563136">Juozas Kaziukėnas, @juokaz</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Užtikrindami balansą garantuojame progresą ir verslo augimą</p>
+			<p>Turime aktyviai įsijungti į bendrą įmonės procesą - tada ir nebus kaip sako Juozas</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Rankų darbo pikseliai</h2>
+		<blockquote>
+			<p>If you think of programming as a craft (which you should), then you should care about every char of code you write.</p>
+			<p class="author"><a href="https://twitter.com/ericf/status/174950590344986624">Eric Ferraiuolo, @ericf</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Mūsų sfera labai plati</p>
+			<p>Vos beprisiliečiau ką reikia daryti kiekvieną dieną</p>
+			<p>Privalome rūpintis kiekvienu simboliu, kiekvienu baitu</p>
+			<p>Paskutinis baitas užkemšantis interneto vamzdį</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Gana pratinti žmones kentėti!</h2>
+		<blockquote>
+			<p>The irony of UX design is that a brilliant, innovative idea might fail just because conventions have trained people to expect bad UIs.</p>
+			<p class="author"><a href="https://twitter.com/LeaVerou/status/184411282873659392">Lea Verou, @LeaVerou</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>preventDefault - neleidžia atidaryti naujo lango</p>
+			<p>IE nerodo ilgų OPTION'ų kai SELECT'as su pločiu</p>
+			<p>Uždėjau !important - sugadinau kolegai dieną</p>
+			<p>Padariau eilinį mėšlą - "vartotojai nesiskundžia" - bet nėra laimingi</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Profesionalūs magai</h2>
+		<img src="i/497061785_fa4577d02e_z.jpg" alt="Magas" />
+		<footer>
+			<p><a href="http://www.flickr.com/photos/kaiban/497061785/">(c) Jack Zalium</a></p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<h2>Profesionalūs magai</h2>
+		<img src="i/tilt.png" alt="Firefox Tilt" />
+		<div class="notes">
+			<p>Kalbėdamas profesiją vadinau įvairiais vardais - bet esame profesionalūs magai</p>
+			<p>Kuriame iliuzijas, kad pakeistume pasaulį</p>
+			<p>Hipster retro webmaster</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Ne bibliotekų išmanymas padaro programuotoją geru</h2>
+		<blockquote>
+			<p>Engineering is a design activity. Programming is a construction activity. In software the activities overlap a lot.</p>
+			<p class="author"><a href="https://twitter.com/MrAlanCooper/status/185905371771191296">Alan Cooper, @MrAlanCooper</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Vartojau žodį "dizainas" - tai plati sąvoka</p>
+			<p>Tiek grafika, tiek sistemos architektūra</p>
+			<p>Neminėjau bibliotekų. Jeigu reikia tik kontaktų formos - kam visas MVC?</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Internetas visur ir visada</h2>
+		<blockquote>
+			<p>"there's a thing in all our pockets that is becoming really big"</p>
+			<p class="author"><a href="https://twitter.com/laurenceveale/status/192971214845788162">Laurence Veale, @laurenceveale</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Internetas auga nesustabdomai</p>
+			<p>Lengva pamesti galvą</p>
+			<p>Padaryti OSAM su QUAD FUCKING CORE procesorium, bet ne dėl fejerverkų</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2>Kompiuteriai yra kvaili...</h2>
+		<blockquote>
+			<p>There is no such thing as a dumb user, only dumb design.</p>
+			<p class="author"><a href="https://twitter.com/aral/status/191090066175692800">Aral Balkan, @aral</a></p>
+		</blockquote>
+		<div class="notes">
+			<p>Ne dėl šefo, ne dėl dizainerio, ne dėl užsakovo</P>
+			<p>Viską ką darome - turime daryti vartotojui</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<h2 class="vcenter">Klausimai?</h2>
+		<footer>
+			<p><a href="http://www.d-b.lt/">d-b.lt</a>, <a href="http://www.dominykas.com/">dominykas.com</a>, <a href="https://twitter.com/dymonaz/">@dymonaz</a></p>
+		</footer>
+	</section>
+
+
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<script src="imakewebthings-deck.js-b4cd216/jquery-1.7.min.js"></script>
+
+<!-- Deck Core and extensions -->
+<script src="imakewebthings-deck.js-b4cd216/core/deck.core.js"></script>
+<script src="imakewebthings-deck.js-b4cd216/extensions/hash/deck.hash.js"></script>
+<script src="imakewebthings-deck.js-b4cd216/extensions/menu/deck.menu.js"></script>
+<script src="imakewebthings-deck.js-b4cd216/extensions/goto/deck.goto.js"></script>
+<script src="imakewebthings-deck.js-b4cd216/extensions/status/deck.status.js"></script>
+<script src="imakewebthings-deck.js-b4cd216/extensions/navigation/deck.navigation.js"></script>
+
+<!-- Specific to this page -->
+<script src="my.js"></script>
+
+</body>
+</html>
